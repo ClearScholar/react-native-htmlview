@@ -1,8 +1,8 @@
-var React = require('react-native')
-var {
+import React from 'react'
+import {
   Image,
   Dimensions,
-} = React
+} = 'react-native'
 
 var {width} = Dimensions.get('window')
 
