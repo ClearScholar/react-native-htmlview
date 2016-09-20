@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Image,
   Dimensions,
-} = 'react-native'
+} from 'react-native'
 
 var {width} = Dimensions.get('window')
 
