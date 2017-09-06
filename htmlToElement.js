@@ -24,8 +24,7 @@ const Img = props => {
     0;
 
   if (height == 0 || width == 0) {
-    height = 0;
-    width = 0;
+    return null;
   }
 
   const imgStyle = {
