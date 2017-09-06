@@ -24,7 +24,7 @@ const Img = props => {
     0;
 
   if (height == 0 || width == 0) {
-    return <View/>;
+    return <View style={{width: 1, height: 1}}/>;
   }
 
   const imgStyle = {
