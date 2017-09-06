@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import htmlparser from 'htmlparser2-without-node-native';
 import entities from 'entities';
 
@@ -24,7 +24,7 @@ const Img = props => {
     0;
 
   if (height == 0 || width == 0) {
-    return null;
+    return <View/>;
   }
 
   const imgStyle = {
